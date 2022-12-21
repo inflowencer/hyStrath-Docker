@@ -3,7 +3,7 @@
 Docker container of hyStrath, developed by [Dr. Vincent Casseau](https://hystrath.github.io/). Includes compressible CFD
 and particle-based DSMC solvers for space related and atmospheric reentry modelling.
 
-## Installation
+## 1. Installation
 
 ### Official Docker Image
 
@@ -22,7 +22,7 @@ cd ~/ && git clone https://github.com/inflowencer/hyStrath-Docker.git && cd hySt
 docker build -t hystrath .
 ```
 
-## Workflow
+## 2. Workflow
 
 1. Setup your case inside a folder where you want to run it
 
@@ -39,7 +39,7 @@ docker build -t hystrath .
    Any changes or files written to the container `/run` folder are going to be written to the host
    `~/hystrath-runs/viking-reentry` folder.
 
-## Example
+## 3. Run an Example
 
 ### Viking Mars Reentry
 
